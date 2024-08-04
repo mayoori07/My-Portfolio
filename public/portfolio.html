@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio personal</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body class="bg-gradient-to-r from-white to-teal-600">
+    
+    <div class="sticky top-0 z-50 "> 
+       
+        <nav class=" bg-gradient-to-r from-stone-700 to-teal-600 text-white p-3 text-xl ">
+            <div class="lg:flex">
+                <div class=" lg:flex items-center container mx-auto px-5 py-2">
+                    <div class="flex justify-between">
+                        <p class="italic">Mayoori</p>
+                    <button onclick="toggleMenu()" class=" ml-auto px-4 py-2 lg:hidden">
+                      <i class="fa-sharp fa-solid fa-bars"></i>
+        
+                    </button>
+                    </div>
+                   
+        
+                   
+                </div>
+        
+                <div id="menu" class="ml-auto mt-5 lg:mt-0 lg:block hidden  ">
+                    <ul class="lg:flex text-lg">
+                        <li class="hover:bg-emerald-800 hover:rounded-bl-lg mx-1 px-6 py-2 cursor-pointer hover:text-teal-950 ">
+                            <a href="#home">Accueil</a>
+                        </li>
+            
+                        <li class="hover:bg-emerald-800 hover:rounded-bl-lg mx-1 px-6 py-2 cursor-pointer hover:text-teal-950 ">
+                            <a href="#About">Moi</a>
+                        </li>
+            
+                        <li class="hover:bg-emerald-800 hover:rounded-bl-lg mx-1 px-6 py-2 cursor-pointer hover:text-teal-950 ">
+                            <a href="#projets">Projets</a>
+                        </li>
+            
+                        <li class="hover:bg-emerald-800 hover:rounded-bl-lg mx-1 px-6 py-2 cursor-pointer hover:text-teal-950 ">
+                            <a href="#Skills">Compétences</a>
+                        </li>
+            
+                        <li class="hover:bg-emerald-800 hover:rounded-bl-lg mx-1 px-6 py-2 cursor-pointer hover:text-teal-950 ">
+                            <a href="#Contact">Contact</a>
+                        </li>
+                       </ul>
+                </div>
+        
+    
+            </div>
+        </nav>
+    </div>
+
+    <div>
+        <section id="home">
+            <div class="mx-auto lg:px-96 lg:py-60 py-2 px-5 mt-10 bg-gradient-to-r from-white to-teal-600  text-white lg:mx-12 rounded-lg lg:pb-96 md:pt-10 font-bold">
+                <h1 class="lg:text-5xl">Bonjour !</h1>
+                <h2 class="lg:text-5xl text-sky-950 mt-6">Je suis Mayoori LOGANATHAN</h2>
+                <h1 class="mt-7 lg:text-2xl mb-4">Développeuse web en formation à Web@cademie EPITECH</h1>
+                <h1 class="mt-7 lg:text-2xl mb-4">Recherche d'un contrat alternance</h1>
+
+                
+               <!-- <div class="border-solid bg-slate-900">
+                    <button type="button">About me</button>
+                </div>-->
+                <div class="flex mt-5 ">
+                    <button type="button" value="Download PDF File" onclick="DownloadFile()"  class="inline-block self-end  bg-cyan-700 text-white font-bold hover:bg-slate-50 hover:text-black rounded-lg px-6 py-2 uppercase text-sm mr-6 " > 
+                        <i class="fa-solid fa-download"></i>
+                        CV
+                         
+                     </button>
+
+                     <button  class="inline-block self-end  bg-cyan-700 hover:bg-slate-50 hover:text-black text-white font-bold rounded-lg px-6 py-2 uppercase text-sm mt-5  " > 
+                        <a href="#Contact">Contact</a>
+                     </button>
+                </div>
+    
+            </div>
+        </section>
+        <section id="About">
+            <div class="mx-auto lg:px-60 lg:py-60 py-2 px-5 mt-10 bg-white lg:mx-12 rounded-lg items-center  font-bold">
+                <div class="lg:flex ">
+                     <div class="text-justify ">
+                         <h1>Je m'appelle Mayoori Loganathan,</h1>
+                         <p>je suis en formation de développeuse intégratrice Web (Titre 5 RNCP - BAC +2 ) Web@cademie by EPITECH - Paris.</p>
+                         <p>Je suis une personne autonome assidue et surtout je suis une personne très créative cependant je ne suis pas très à l'aise à l'oral, cela n'affecte pas ma communication à l'écrit. J'ai choisi de devenir développeuse web parce que j'ai toujours voulu travailler dans l'informatique et y ajouter ma touche de créativité ce que je peux réaliser à travers la création de site web.</p>
+                         
+                        
+                     </div>
+         
+                     <div class="pl-10">
+                         <img src="image/myphoto.jpeg" alt="" class="rounded" width="800px">
+         
+                     </div>
+                </div>
+         
+             </div>
+    
+        </section>
+
+        <section id="projets">
+            <div class="mx-auto lg:px-40 lg:py-10 py-2 px-5 mt-10 lg:mx-12 rounded-lg mb-10 ">
+                <div class="text-center py-10">
+                    
+                    <h1 class="text-5xl w-96 mx-auto py-4 text-white lg:mb-5">Mes projets</h1>
+    
+                    <div class="sm:flex mx-auto gap-4 group py-2 px-5">
+                        <div class="bg-gradient-to-r from-blue-200 group-hover:blur-sm hover:!blur-none  cursor-pointer p-8 rounded-xl md:mb-5 w-full md:w-1/4 mb-5">
+                            <img src="projet/mymeetic.png" alt="Projet" class="h-40 mx-auto">
+                            <h4 class="uppercase text-xl font-bold">mymeetic</h4>
+                            <p class="text-sm leading-7 my-3 font-light opacity-50 ">Site similaire à MEETIC</p>
+                            <p>Développé en 2 semaines</p>
+                            <p class="text-sm leading-7 my-3 font-light opacity-50 ">Les langages utilisé :HTML, CSS, AJAX, PHP, MYSQL</p>
+    
+                            <a href="https://github.com/EpitechWebAcademiePromo2025/W-PHP-501-PAR-1-1-mymeetic-mayoori.loganathan.git" target="_blank"><i class="fa-brands fa-github text-4xl"></i></a>
+    
+                        </div>
+    
+                        <div class="bg-gradient-to-r from-blue-200 group-hover:blur-sm hover:!blur-none cursor-pointer p-8 rounded-xl md:mb-5 w-full md:w-1/4 mb-5">
+                            <img src="projet/Puissance4.png" alt="Projet" class="h-40 mx-auto">
+                            <h4 class="uppercase text-xl font-bold">Puissance4</h4>
+                            <p class="text-sm leading-7 my-3 font-light opacity-50 ">Un projet de 2 semaines,sur la conception du jeu le Puissance 4</p>
+                            <p class="text-sm leading-7 my-3 font-light opacity-50 ">langage utilisé :JavaScript <br>
+                                Le langage utilisé pour ce projet et seulement le JavaScript</p>
+
+    
+                            <a href="https://github.com/EpitechWebAcademiePromo2025/W-JSC-501-PAR-1-1-puissance4-mayoori.loganathan.git" target="_blank"><i class="fa-brands fa-github text-4xl"></i></a>
+    
+                        </div>
+    
+                        <div class="bg-gradient-to-r from-blue-200 group-hover:blur-sm hover:!blur-none cursor-pointer p-8 rounded-xl md:mb-5 w-full md:w-1/4 mb-5">
+                            <img src="projet/twitter.png" alt="Projet" class="h-40 mx-auto">
+                            <h4 class="uppercase text-xl font-bold">Twitter</h4>
+                            <p class="text-sm leading-7 my-3 font-light opacity-50 ">Les langages utilisé: HTML,CSS,JS,PHP,MYSQL</p>
+    
+                            <a href="https://github.com/EpitechWebAcademiePromo2025/W-WEB-090-PAR-1-1-academie-israel.mbambi-pedro.git" target="_blank"><i class="fa-brands fa-github text-4xl"></i></a>
+    
+                        </div>
+
+                        <!--<div class="bg-violet-100 group-hover:blur-sm hover:!blur-none cursor-pointer p-8 rounded-xl mb-8">
+                            <img src="projet/textedior.png" alt="Projet" class="h-40 mx-auto">
+                            <h4 class="uppercase text-xl font-bold">my_wysiwy9</h4>
+                            <p class="text-sm leading-7 my-3 font-light opacity-50 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, aliquam iste libero, perferendis earum amet minima deleniti quod fugiat neque nihil accusantium similique quidem at facilis consequuntur cum consequatur quam.</p>
+    
+                            <button class=" bg-black py-2.5 px-8 rounded-full">
+                                check githup
+    
+                            </button>
+    
+                        </div>-->
+    
+                        <div class="bg-gradient-to-r from-blue-200 group-hover:blur-sm hover:!blur-none cursor-pointer p-8 rounded-xl md:mb-5 w-full md:w-1/4 mb-5 ">
+                            <img src="projet/spotify.png" alt="Projet" class="h-40 mx-auto ">
+                            <h4 class="uppercase text-xl font-bold">Spotify</h4>
+                            <p class="text-sm leading-7 my-3 font-light opacity-50 ">langage utilisé : React JS</p>
+    
+                            <a href="https://github.com/EpitechWebAcademiePromo2025/W-WEB-090-PAR-1-1-spotify-mayoori.loganathan.git" target="_blank"><i class="fa-brands fa-github text-4xl"></i></a>
+    
+                        </div>
+    
+                    </div>
+    
+                    
+    
+                </div>
+    
+            </div>
+    
+        </section>
+        <!--Skills-->
+        <section id="Skills">
+            <div class="mx-auto lg:px-40 lg:py-30 py-2 px-5 mt-10 bg-gradient-to-r from-blue-100 lg:mx-12 rounded-lg mb-10">
+                <!--<div class="bg-white">-->
+                    <h1 class="text-center md:text-7xl italic text-bg-stone-800 mb-4 mt-4">Compétences</h1>
+                    <h1 class="text-3xl underline">LANGAGES</h1>
+                
+                    <div class="lg:flex max-w-5xl mx-auto gap-8 my-10 ">
+                        <div>
+                            <i class="fa-brands fa-html5 text-9xl px-10 py-10 cursor-pointer hover:text-orange-600"></i>
+                            
+                        </div>
+                        
+                        <div>
+                            <i class="fa-brands fa-css3-alt text-9xl px-10 py-10 cursor-pointer hover:text-blue-800"></i>
+                            
+                        </div>
+                        
+                        
+                        
+                        <div>
+                            <i class="fa-brands fa-js text-9xl px-7 py-7 cursor-pointer hover:text-yellow-500"></i>
+                           
+                        </div>
+
+                        <div>
+                            <i class="fa-brands fa-php text-9xl px-7 py-7 cursor-pointer hover:text-blue-900"></i>
+                        </div>
+                        
+                        <div>
+                            <i class="fa-solid fa-database text-9xl px-7 py-7 cursor-pointer hover:text-blue-800"></i>
+                        </div>
+                        
+    
+    
+                    </div>
+
+                    <h1 class="text-3xl underline">FRAMEWORK & LIBRAIRIES</h1>
+    
+                    <div class="lg:flex max-w-5xl mx-auto gap-8 my-10">
+                        <div>
+                            
+                            <i class="fa-brands fa-bootstrap text-9xl px-7 py-7 cursor-pointer hover:text-indigo-700"></i>
+                        </div>
+                        
+                        <div>
+                            <i class="fa-brands fa-sass text-9xl px-7 py-7 cursor-pointer hover:text-pink-400"></i>
+                            
+                        </div>
+                        
+                        <div>
+                            <i class="fa-brands fa-react text-9xl px-7 py-7 cursor-pointer hover:text-sky-500"></i>
+                            
+                        </div>
+                        
+                    
+    
+    
+                    </div>
+
+                    <h1 class="text-3xl underline">OUTILS</h1>
+    
+                    <div class="lg:flex max-w-5xl mx-auto gap-8 my-10">
+                        <div>
+                            <i class="fa-brands fa-github text-9xl px-7 py-7 cursor-pointer hover:text-black"></i>
+                            
+                        </div>
+                        
+                        <div>
+                            <i class="fa-brands fa-discord text-9xl px-7 py-7 cursor-pointer hover:text-indigo-500"></i>
+                        </div>
+                        
+                        
+    
+    
+                    </div>
+    
+    
+                <!--</div>-->
+    
+    
+                
+            </div>
+
+        </section>
+
+        <!--contact-->
+        <!--<div class="antialiased bg-gray-100 -mt-15">-->
+            <section name="" id="Contact">
+                <div class="mx-auto lg:px-40 lg:py-30 py-2 px-5 mt-10  lg:mx-12 rounded-lg mb-10  items-center lg:py-16 bg-gradient-to-r from-blue-100 ">
+                    <div class="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-gradient-to-r from-blue-100 max-w-4xl p-8 rounded-xl shadow-lg text-black items-center lg:ml-48">
+                        <div class="flex flex-col space-y-8 justify-between md:w-3/6">
+                            <div>
+                                <h1 class="font-bold text-4xl tracking-wide">Contactez-moi</h1>
+    
+                            </div>
+    
+                            <div class="flex space-x-4">
+                                <a href="https://github.com/mayoori07" target="_blank" class="w-6 h-6 cursor-pointer hover:text-emerald-400">
+                                    <i class="fab fa-github text-2xl"></i>
+                                </a>
+                            
+                                <a href="https://www.linkedin.com/in/mayoori-loganathan-755821304/" target="_blank" class="w-6 h-6 cursor-pointer hover:text-emerald-400" >
+                                    <ion-icon name="logo-linkedin" class="text-2xl"></ion-icon>
+                                </a>
+
+                                <a href="https://twitter.com/AchchuMayoo" target="_blank" class="w-4 h-4 cursor-pointer hover:text-emerald-400" >
+                                    <i class="fa-brands fa-twitter text-2xl lg:pr-2"></i>
+                                </a>
+
+                                <a href="#" target="_blank" class="w-4 h-4 cursor-pointer hover:text-emerald-400" >
+                                    <i class="fa-solid fa-envelope text-2xl lg:pr-3"></i>
+                                </a>
+                            </div>
+                            
+    
+                        </div>
+                        <div>
+                            <div class="bg-white rounded-xl shadow-lg p-8 text-gray-600">
+                                <form action="https://submit-form.com/JveNLHfjx" class="flex flex-col space-y-4">
+                                    <div>
+                                       <label for="name"  class="text-sm">Nom Prénom</label> 
+    
+                    
+                                        <input type="text" id="name" name="name" placeholder="" required="" class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-300">
+                                    </div>
+    
+                                    <div>
+                                        <label for="email" class="text-sm">Email</label> 
+                                     
+     
+                                     
+                                         <input type="email" id="email" name="email" placeholder="Email" required="" class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-300">
+                                     </div>
+    
+                                     <div>
+                                        <label for="message" class="text-sm">Message</label> 
+                                     
+     
+                                     
+                                         <textarea for=""  id="message"
+                                         name="message"
+                                         placeholder="Message"
+                                         required=""  rows="4"  required class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-300"></textarea>
+                                     </div>
+    
+                                     <button class="inline-block self-end bg-cyan-700 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm hover:bg-zinc-200  " > 
+                                        Sent message
+                                     </button>
+    
+                                </form>
+    
+                            </div>
+                        </div>
+    
+    
+                    </div>
+    
+                </div>
+            </section>
+
+        <!--</div>-->
+
+
+
+    </div>
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="navbar.js"></script>
+    <script src="cv.js"></script>
+    
+</body>
+</html>
